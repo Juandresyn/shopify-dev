@@ -1,0 +1,9 @@
+{
+  "preset": "airbnb",
+  "requireTrailingComma": false,
+  "requirePaddingNewLinesBeforeLineComments": false,
+  "requireSpacesInsideObjectBrackets": false,
+  "requirePaddingNewLinesAfterBlocks": false,
+  "safeContextKeyword": "self",
+  "maximumLineLength": {"value": 1000, "allExcept": []}
+}

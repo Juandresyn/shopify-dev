@@ -1,0 +1,14 @@
+{
+  "name": ".build",
+  "_source": "https://snapsuits.git.beanstalkapp.com/build-tool.git",
+  "_target": "*",
+  "_originalSource": "https://snapsuits.git.beanstalkapp.com/build-tool.git",
+  "main": [
+    "gulpfile.js"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components"
+  ]
+}

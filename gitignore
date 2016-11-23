@@ -1,0 +1,26 @@
+# Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+
+# User
+*.DS_Store*
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Build Tools (managed through bower)
+.build
+
+# Heroku Apps
+.heroku
+
+# Symlinks created by bower install
+gulpfile.js
+Gulpfile.js
+package.json
+.jscsrc
+.stylelintrc
+
+# Environment Variables
+config.json
+.env

@@ -2,7 +2,7 @@
   "extends": [],
   "plugins": [],
   "ignoreFiles": [
-    "dev/styles/bvaccel.scss",
+    "dev/styles/shop.scss",
     "dev/styles/helpers/_variables.scss",
     "dev/styles/base/_normalize.scss"
   ],

@@ -39,7 +39,7 @@ var plumberErrorHandler = {
 };
 
 gulp.task('lint-styles', () => {
-  return gulp.src(['dev/styles/**/*.scss', '!dev/styles/**/{bvaccel,_variables,_mixins,_normalize}.scss'])
+  return gulp.src(['dev/styles/**/*.scss', '!dev/styles/**/{_variables,_mixins,_normalize}.scss'])
     .pipe(stylefmt())
     .pipe(stylelint({
       reporters: [{formatter: 'string', console: true}]
@@ -70,7 +70,7 @@ gulp.task('scripts', () => {
   return gulp.src(['dev/scripts/*.js'])
     .pipe(plumber(plumberErrorHandler))
     .pipe(sourcemaps.init())
-    .pipe(concat('bvaccel.js'))
+    .pipe(concat('scripts.js'))
     .pipe(uglify())
     .pipe(sourcemaps.write())
     .pipe(rename({ suffix: '.js', extname: '.liquid' }))

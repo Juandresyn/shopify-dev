@@ -1,8 +1,8 @@
 {
   "name": ".build",
-  "_source": "https://snapsuits.git.beanstalkapp.com/build-tool.git",
+  "_source": "https://github.com/Juandresyn/shopify-dev.git",
   "_target": "*",
-  "_originalSource": "https://snapsuits.git.beanstalkapp.com/build-tool.git",
+  "_originalSource": "https://github.com/Juandresyn/shopify-dev.git",
   "main": [
     "gulpfile.js"
   ],
